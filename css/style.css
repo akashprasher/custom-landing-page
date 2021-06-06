@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+.time-box {
+  margin-bottom: 10px;
+}
+
+.time {
+  font-family: "Bebas Neue", cursive;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.ottaline,
+.ottaline-sm {
+  color: #05445e;
+  /* -webkit-text-fill-color: #f1f1f1; */
+  -webkit-text-stroke-color: #f1f1f1;
+}
+
+.ottaline {
+  -webkit-text-stroke-width: 2px;
+}
+
+.ottaline-sm {
+  -webkit-text-stroke-width: 0.2px;
+}
+
+.main {
+  text-align: center;
+  background-image: url("https://source.unsplash.com/1920x1080/?wallpaper");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-box {
+  display: block;
+  /* border: 10px solid #000; */
+  border-radius: 15px;
+  padding: 5vh 5vw;
+}
+
+#query {
+  width: 60vw;
+  padding: 15px 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.btn {
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  /* margin-top: 10px; */
+  min-width: 20vw;
+  color: #05445e;
+  background-color: #f1f1f1;
+  border: none;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px #05445e;
+}
+
+footer {
+  width: 100%;
+  position: fixed;
+  top: 95vh;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+footer p a {
+  text-decoration: underline #f1f1f1;
+  color: inherit;
+}
