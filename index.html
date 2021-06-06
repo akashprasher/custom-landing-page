@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Beautiful</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="search-box">
+        <div class="time-box">
+          <h1 class="time digital-clock ottaline">_ _: _ _</h1>
+        </div>
+        <form onsubmit="searchQuery()" action="javascript:void(0)">
+          <div>
+            <input
+              id="query"
+              type="text"
+              autocomplete="off"
+              placeholder="Enter Your Query"
+            />
+          </div>
+          <div class="buttons">
+            <input class="btn" id="submitButton" type="submit" value="Search" />
+            <button class="btn" onclick="javascript:location.reload()">
+              Change Wallpaper
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p class="ottaline-sm">
+        Made with ❤️ by
+        <a href="https://github.com/akashprasher" target="_blank"
+          >Akash Prasher</a
+        >
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
